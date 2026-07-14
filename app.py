@@ -28,16 +28,16 @@ st.markdown(
 # ============================================================
 
 HER_NAME = "Meri Guddi"
-YOUR_NAME = "Your Name"
+YOUR_NAME = "Zohaib"
 
 # Optional: your WhatsApp number with country code, digits only, no + or spaces.
 # Example for Pakistan: "923001234567". Leave as "" to skip the WhatsApp button.
 WHATSAPP_NUMBER = "923097889488"
 
-OPENING_LINE = "I know I hurt you, and I've missed you every single day of these two months."
-MEMORY = "Remember when we used to talk for hours about nothing and everything? I miss that version of us."
-APOLOGY = "I was wrong. I should have understood you better instead of making you feel unheard. You deserve someone who listens, who tries, who doesn't let his ego come before your feelings — and I want to be that person for you."
-PROMISE = "I promise to do better — to communicate, to be patient, and to never let two months of silence happen again."
+OPENING_LINE = "menu pta ay main tuhada dil dukhaya ay lkn yaqeen kro ,main har roz pachtandan."
+MEMORY = "Yaad kro apan kinny thek c apas vich bas lokan di waja tun dooriyan aa gyan"
+APOLOGY = "Main buht ghalat kitta buht dil dukhaya tuhada lkn yaqeen kro main buht yaad kitta tuhanon inna dinnan vich , plzz hunr maaaf kr dyo na , hor guzara nai honda tuhady beghair"
+PROMISE = "main waada krdan main sb kujh thek kr dyan ga, bas akhri chance dy dy."
 CLOSING_LINE = "You are still, and always will be, the best part of my life. I'm not asking you to forget — just to give us one more chance to talk."
 
 # Add / edit as many memories as you like — each becomes a swipeable card
@@ -50,20 +50,20 @@ MEMORIES = [
 
 # 6 short reasons — each becomes a tap-to-flip card
 REASONS = [
-    "The way you laugh at your own jokes before finishing them.",
-    "How you remember tiny details about people you care about.",
-    "Your strength, even when you don't realize how strong you are.",
-    "The way you make ordinary days feel special.",
-    "How honest you are, even when it's hard.",
-    "Simply — because you're you.",
+    "Tussi jidan meri care krdy c.",
+    "tuhada msg vekh k meri saari preshanian door ho jandian sanr.",
+    "tuhadi sohnrian akkhan.",
+    "tussi jehry menu nickname dendy c.",
+    "Simply , because you're you.",
+    "I love you so much meri guddi.",
 ]
 
 # A short, honest section about what these two months have been like for you.
 # Keep it real, not dramatic — a few sentences is enough.
 PAIN_LINES = [
-    "It's quiet in a way I'm not used to. I keep almost texting you before remembering.",
-    "I've replayed our last conversation more times than I'd like to admit, wishing I'd said things differently.",
-    "I'm not writing this to make you feel guilty — just to be honest about how much I've missed you.",
+    "inna dinnan vich roz tuhadi id khol k dkhdan.",
+    "roz purani chats parhdan roz tuhady voice not sunrdan.",
+    "tuhadi ik ik video ha mere kol o daily dkhdan",
 ]
 
 # The date (YYYY-MM-DD) you two last really talked — used to show a live day counter
@@ -74,8 +74,8 @@ PHOTO_PATH = "photo.png"
 PHOTO_CAPTION = "a memory I still smile at"
 
 # The 4-digit PIN she needs to unlock the page — you said her birthday, so DDMM format
-PIN_CODE = "0206"
-PIN_HINT = "hint: a very special day for us 🎂"
+PIN_CODE = "0602"
+PIN_HINT = "hint: pincode of my phone"
 
 # ============================================================
 # Do not edit below this line
