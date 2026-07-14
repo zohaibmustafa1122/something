@@ -42,10 +42,10 @@ CLOSING_LINE = "You are still, and always will be, the best part of my life. I'm
 
 # Add / edit as many memories as you like — each becomes a swipeable card
 MEMORIES = [
-    {"emoji": "🌅", "date": "The beginning", "text": "Write about how you two met or your first real conversation."},
-    {"emoji": "😂", "date": "A silly memory", "text": "Write about a moment that always makes you both laugh."},
-    {"emoji": "🌧️", "date": "A hard day", "text": "Write about a time she supported you or you supported her."},
-    {"emoji": "🏡", "date": "A quiet moment", "text": "Write about a small everyday memory you miss the most."},
+    {"emoji": "🌅", "date": "The beginning", "text": "menu haaly v yaad ay jadon tussi pehli vaari menu anti shia reel bheji c."},
+    {"emoji": "😂", "date": "A beatiful memory", "text": "jadon main pehli caari tuhanon vekhya c."},
+    {"emoji": "🌧️", "date": "A beautiful day", "text": "jis din main pehli vaari tuhadi awaaz sunri c."},
+    {"emoji": "🏡", "date": "A quiet moment", "text": "menu tuhady ditty nicknames buht yaad aandy nain."},
 ]
 
 # 6 short reasons — each becomes a tap-to-flip card
@@ -67,7 +67,7 @@ PAIN_LINES = [
 ]
 
 # The date (YYYY-MM-DD) you two last really talked — used to show a live day counter
-LAST_TALKED_DATE = "2026-05-13"
+LAST_TALKED_DATE = "2026-05-17"
 
 # Path to a photo to show in this section (any image in the same folder as app.py)
 PHOTO_PATH = "photo.png"
