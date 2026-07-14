@@ -119,11 +119,11 @@
   .pin-error { color: #ffb3c6; font-size: 0.9rem; margin-top: 1.2rem; min-height: 1.2rem; }
 
   /* ---- LETTER (reuse) ---- */
-  .letter-card {
-    background: rgba(255,255,255,0.94); color: #4a1030;
-    border-radius: 22px; padding: 1.6rem 1.5rem; max-width: 480px; width: 100%;
-    box-shadow: 0 12px 40px rgba(0,0,0,0.35);
-  }
+  <!-- LETTER -->
+<section class="section" id="letterSection" style="display:none;">
+  <div class="letter-card" id="letterCard"></div>
+  <button class="reveal-btn" id="toPainBtn" style="margin-top:1.8rem;">Continue →</button>
+</section>
   .letter-line {
     font-size: 1.02rem; line-height: 1.7; margin-bottom: 1rem; text-align: left;
     opacity: 0; transform: translateY(10px);
@@ -658,11 +658,17 @@ function startLetter() {
   lineEls.forEach((el, i) => {
     setTimeout(() => { el.classList.add('show'); paperSound(); }, i * 900);
   });
-  setTimeout(() => {
+setTimeout(() => {
     sig.classList.add('show');
-    setTimeout(showPainSection, 1200);
+    document.getElementById('toPainBtn').classList.add('active');
   }, lineEls.length * 900);
 }
+
+document.getElementById('toPainBtn').addEventListener('click', () => {
+  gentleTick(700);
+  document.getElementById('letterSection').style.display = 'none';
+  showPainSection();
+});
 
 /* ================= PAIN / REFLECTION SECTION ================= */
 function daysSince(dateStr) {
